@@ -84,14 +84,15 @@ h1{
 .testimonials-cnt{
     display: flex;
     justify-content: center;
+    align-items: center;
+    max-width: 1038px;
     gap: 1.5rem;
     flex-wrap: wrap;
 }
 
 .testimonial-card{
     display: flex;
-    width: 330px;
-    height: fit-content;
+    flex: 1;
     flex-direction: column;
     gap: 1.5rem;
     background-color: var(--dark-color);
@@ -100,11 +101,11 @@ h1{
 }
 
 .testimonial-card:nth-child(2){
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .testimonial-card:last-child{
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
 .testimonial-card > p, .author-name{
@@ -140,9 +141,7 @@ h1{
 }
 
 @media (max-width: 1097px){
-    .testimonial-card:nth-child(2), .testimonial-card:last-child{
-        margin: 0;
-    }
+    
 
 }
 
